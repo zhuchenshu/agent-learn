@@ -1,0 +1,19 @@
+# 环境与密钥
+.env
+uv.lock
+pyproject.toml
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 运行时数据
+data/chroma/
+data/intermediate/
+data/memory/
+
+# 系统
+.DS_Store
